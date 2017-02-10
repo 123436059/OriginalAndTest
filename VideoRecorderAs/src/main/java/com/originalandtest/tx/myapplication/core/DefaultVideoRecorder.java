@@ -111,7 +111,7 @@ public class DefaultVideoRecorder extends BaseRecorder{
         Camera mCamera = mCameraPair.getCamera();
         mCamera.unlock();
         recorder.setCamera(mCamera);
-
+        Log.d("taxi", "hehe");
         recorder.setVideoSource(MediaRecorder.VideoSource.CAMERA);
         recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
         recorder.setOrientationHint(sRotation);
