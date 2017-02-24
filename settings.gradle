@@ -1,1 +1,1 @@
-include ':app', ':VideoRecorderAs'
+include ':app', ':VideoRecorderAs', ':printdemo'

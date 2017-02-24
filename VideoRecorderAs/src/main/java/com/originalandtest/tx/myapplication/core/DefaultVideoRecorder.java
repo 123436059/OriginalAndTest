@@ -243,5 +243,4 @@ public class DefaultVideoRecorder extends BaseRecorder{
             recorder = null;
         }
     }
-
 }

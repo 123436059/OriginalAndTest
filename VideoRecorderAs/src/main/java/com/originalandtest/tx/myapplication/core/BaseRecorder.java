@@ -61,7 +61,7 @@ public abstract class BaseRecorder {
         this.mOutputFile = outputFile;
     }
 
-    public void setOnRecordingListener(OnRecordingListener listener){
+    public void    setOnRecordingListener(OnRecordingListener listener){
         mRecordingListener = listener;
     }
 
